@@ -1,0 +1,72 @@
+#outercircle {
+  display: flex;
+  background-color: orangered;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  width: 400px;
+  border-radius: 50%;
+  margin: auto;
+}
+
+#square {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  height: 300px;
+  width: 300px;
+  margin: auto;
+}
+
+.button {
+  display: block;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.square {
+  height: 200px;
+  width: 200px;
+  background-color: white;
+}
+
+.triangle {
+  width: 0;
+  height: 0;
+  border-left: 150px solid transparent;
+  border-right: 150px solid transparent;
+  border-bottom: 150px solid white;
+}
+
+.rectangle {
+  height: 100px;
+  width: 200px;
+  background-color: white;
+}
+
+.circle {
+  height: 200px;
+  width: 200px;
+  background-color: white;
+  border-radius: 50%;
+}
+.button_div {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  justify-content: center;
+  margin: 30px;
+}
+
+h1 {
+  font-family: sans-serif;
+  text-align: center;
+  color: white;
+}
+
+body {
+  background-image: url(https://images.pexels.com/photos/3689659/pexels-photo-3689659.jpeg);
+  background-position: center;
+  background-size: cover;
+}
